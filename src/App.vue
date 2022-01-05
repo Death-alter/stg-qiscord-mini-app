@@ -1,17 +1,12 @@
 <script>
-	export default {
-		onLaunch: function() {
-			console.log('App Launch')
-		},
-		onShow: function() {
-			console.log('App Show')
-		},
-		onHide: function() {
-			console.log('App Hide')
-		}
-	}
+export default {};
 </script>
 
 <style>
-	/*每个页面公共css */
+/*每个页面公共css */
+button {
+  padding: 10rpx 40rpx;
+  line-height: 1.5;
+  margin: 20rpx;
+}
 </style>

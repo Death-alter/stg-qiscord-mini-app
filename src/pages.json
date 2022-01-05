@@ -1,16 +1,52 @@
 {
-	"pages": [
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "小程序"
+      }
+    },
+    {
+      "path": "pages/scorePages/tfcc",
+      "style": {
+        "navigationBarTitleText": "查避弹"
+      }
+    },
+    {
+      "path": "pages/scorePages/isndes",
+      "style": {
+        "navigationBarTitleText": "查打分"
+      }
+    },
+    {
+      "path": "pages/rankingPages/nn",
+      "style": {
+        "navigationBarTitleText": "查NN"
+      }
+    },
+    {
+      "path": "pages/rankingPages/score",
+      "style": {
+        "navigationBarTitleText": "查打分榜"
+      }
+    },
+    {
+      "path": "pages/randomPages/game",
+      "style": {
+        "navigationBarTitleText": "随作品"
+      }
+    },
+    {
+      "path": "pages/randomPages/shootType",
+      "style": {
+        "navigationBarTitleText": "随机体"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
 }
